@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="cal.css">
+    <script src="cal.js"></script>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td colspan="4"><input type="text" id="display"></td>
+    </tr>
+    <tr>
+        <td><button type="button" name="operator" id="obr" onclick="add('(')">(</button></td>
+        <td><button type="button" name="operator" id="cbr" onclick="add(')')">)</button></td>
+        <td><button type="button" name="operator" id="mod" onclick="add('%')">%</button></td>
+        <td><button type="button" name="operator" id="ac" onclick="reset()">AC</button></td>
+    </tr>
+    <tr>
+        <td><button type="button" name="operator" id="num7" onclick="add('7')">7</button></td>
+        <td><button type="button" name="operator" id="num8" onclick="add('8')">8</button></td>
+        <td><button type="button" name="operator" id="num9" onclick="add('9')">9</button></td>
+        <td><button type="button" name="operator" id="div" onclick="add('/')">/</button></td>
+    </tr>
+    <tr>
+        <td><button type="button" name="operator" id="num4" onclick="add('4')">4</button></td>
+        <td><button type="button" name="operator" id="num5" onclick="add('5')">5</button></td>
+        <td><button type="button" name="operator" id="num6" onclick="add('6')">6</button></td>
+        <td><button type="button" name="operator" id="mul" onclick="add('*')">*</button></td>
+    </tr>
+    <tr>
+        <td><button type="button" name="operator" id="num1" onclick="add('1')">1</button></td>
+        <td><button type="button" name="operator" id="num2" onclick="add('2')">2</button></td>
+        <td><button type="button" name="operator" id="num3" onclick="add('3')">3</button></td>
+        <td><button type="button" name="operator" id="sub" onclick="add('-')">-</button></td>
+    </tr>
+    <tr>
+        <td><button type="button" name="operator" id="num0" onclick="add('0')">0</button></td>
+        <td><button type="button" name="operator" id="com" onclick="add('.')">.</button></td>
+        <td><button type="button" name="operator" id="eql" onclick="answer()">=</button></td>
+        <td><button type="button" name="operator" id="add" onclick="add('+')">+</button></td>
+    </tr>
+</table>
+
+</body>
+</html>

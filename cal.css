@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse;
+    width: 200px;
+    height: 200px;
+    table-layout: fixed;
+    text-align: center;
+}
+
+tr:nth-child(2) button{
+    background-color: #c6dae8;
+}
+
+td:nth-child(4) button{
+    background-color: #c6dae8;
+}
+
+input{
+    width: 96%;
+    text-align: right;
+    border-radius: 5px;
+    border: 1px solid #44738f;
+    color: #2e4c64;
+}
+
+button{
+    width: 90%;
+    border: 1px solid #44738f;
+    border-radius: 5px;
+    color: #2e4c64;
+}
+#eql {
+    background-color: #6b9cb4;
+}
