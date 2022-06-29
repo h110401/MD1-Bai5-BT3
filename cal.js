@@ -94,10 +94,10 @@ function pow() {
             isClick = true;
         } else {
             powButton.style.backgroundColor = '#e9ecee';
+            answer()
             isClick = false;
             x = null;
         }
-
         if (isClick) {
             isDone = true;
         }
