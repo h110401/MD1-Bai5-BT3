@@ -23,17 +23,6 @@ function off() {
 
 function add(c) {
     if (isOn) {
-        if (isDone) {
-            document.getElementById('display').value = c;
-            isDone = false;
-        } else {
-            document.getElementById('display').value += c;
-        }
-    }
-}
-
-function add0(c) {
-    if (isOn) {
         if (isDone || document.getElementById('display').value == '0') {
             document.getElementById('display').value = c;
             isDone = false;
