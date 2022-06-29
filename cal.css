@@ -1,3 +1,9 @@
+
+sub{
+    vertical-align: super;
+    font-size: 8px;
+}
+
 table {
     border-collapse: collapse;
     width: 200px;
@@ -10,7 +16,7 @@ tr:nth-child(2) button{
     background-color: #c6dae8;
 }
 
-td:nth-child(4) button{
+td:nth-child(5) button{
     background-color: #c6dae8;
 }
 
@@ -23,11 +29,21 @@ input{
 }
 
 button{
+    padding: 0;
     width: 90%;
     border: 1px solid #44738f;
     border-radius: 5px;
     color: #2e4c64;
+    text-align: center;
+    background-color: #e9ecee;
 }
-#eql {
+#eql{
     background-color: #6b9cb4;
+}
+#on{
+    background-color: #91b0cb;
+}
+#off {
+    background-color: #b04141;
+    color: white;
 }
