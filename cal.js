@@ -26,9 +26,9 @@ document.addEventListener('keydown', function (e) {
     } else if (e.key == '/' || e.keyCode == 111 || e.keyCode == 190 || e.keyCode == 107 || e.key == '+' || e.keyCode == 109 || e.key == '-' || e.keyCode == 106 || e.key == '*') {
         add(e.key)
     } else if (e.keyCode == 13) {
-
         answer()
-
+    } else if (e.keyCode == 8){
+        document.getElementById('display').value = document.getElementById('display').value.slice(0, -1);
     }
 }, false);
 
