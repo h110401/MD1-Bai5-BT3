@@ -1,5 +1,11 @@
+div {
+    width: 210px;
+    border: #44738f 1px solid;
+    border-radius: 10px;
+    background-color: #87dabb;
+}
 
-sub{
+sub {
     vertical-align: super;
     font-size: 8px;
 }
@@ -12,23 +18,24 @@ table {
     text-align: center;
 }
 
-tr:nth-child(2) button{
+tr:nth-child(2) button {
     background-color: #c6dae8;
 }
 
-td:nth-child(5) button{
+td:nth-child(5) button {
     background-color: #c6dae8;
 }
 
-input{
+input {
     width: 96%;
     text-align: right;
     border-radius: 5px;
     border: 1px solid #44738f;
     color: #2e4c64;
+    background-color: #e9ecee;
 }
 
-button{
+button {
     padding: 0;
     width: 90%;
     border: 1px solid #44738f;
@@ -37,12 +44,15 @@ button{
     text-align: center;
     background-color: #e9ecee;
 }
-#eql{
+
+#eql {
     background-color: #6b9cb4;
 }
-#on{
+
+#on {
     background-color: #91b0cb;
 }
+
 #off {
     background-color: #b04141;
     color: white;
